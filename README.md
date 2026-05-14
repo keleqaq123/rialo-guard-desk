@@ -383,9 +383,6 @@ RIALO_SIGNING_KEY_HEX=
 RIALO_SECRET_SHARING_PUBKEY_HEX=
 ```
 
-Do not commit `.env` to GitHub.
-
----
 
 ## Demo Flow
 
