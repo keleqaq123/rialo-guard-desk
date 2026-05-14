@@ -455,9 +455,6 @@ The current version is still an early demo, but it already demonstrates the main
 
 I also prepared both Chinese and English frontend UI versions, so the demo can be easier to understand for community members from different regions.
 
-> Review operations before execution and keep every action auditable.
-
----
 
 ## Security Notes
 
