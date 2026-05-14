@@ -475,7 +475,9 @@ During development, I focused on three things:
 2. Building a working backend flow with Rust and Axum.
 3. Exploring how Rialo RPC, policy review, approval flow, Secret Vault, and audit logging can fit together.
 
-The current version is still a demo, but it already shows the core product idea:
+The current version is still an early demo, but it already demonstrates the main workflow I wanted to build: reviewing operations before execution and keeping every action auditable.
+
+I also prepared both Chinese and English frontend UI versions, so the demo can be easier to understand for community members from different regions.
 
 > Review operations before execution and keep every action auditable.
 
