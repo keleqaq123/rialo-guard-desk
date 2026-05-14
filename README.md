@@ -155,11 +155,7 @@ The execution pipeline shows the expected lifecycle of a guarded operation:
 4. Sign
 5. Broadcast
 
-This represents the product philosophy:
 
-> Operations should not be sent directly. They should first pass through simulation, policy review, approval, and signing.
-
----
 
 ### Secret Vault
 
