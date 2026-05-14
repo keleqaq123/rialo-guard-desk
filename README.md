@@ -401,26 +401,6 @@ A typical demo flow:
 
 ---
 
-## Example Demo Script
-
-This is how I usually explain the demo:
-
-> This is Rialo Guard Desk, a policy execution console I built for teams and AI agents on Rialo.
->
-> It is designed to review operations before execution. Every transfer request, secret encryption, or automation-style operation first enters the operation queue.
->
-> The system shows the target, amount, risk level, and current status. If the operation is risky, it can require manual approval.
->
-> A team member can approve or reject the operation, and every decision is written into the audit timeline.
->
-> The demo also includes a Secret Vault for agent keys and API credentials. This helps avoid exposing sensitive keys in plain text.
->
-> In version 0.2, I also added a Rialo Devnet RPC query module, so the app can query a real Rialo Playground public key.
->
-> My long-term goal is to make Rialo Guard Desk a guarded execution layer for team treasuries, AI agents, and automated workflows.
-
----
-
 ## Current Limitation
 
 This version is a working local demo with real backend APIs and a Rialo Devnet RPC query module.
