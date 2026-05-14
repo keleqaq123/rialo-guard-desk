@@ -190,9 +190,6 @@ The audit timeline records key actions, including:
 - secret encryption
 - RPC query activity
 
-This makes the system more transparent and traceable.
-
----
 
 ### Rialo Devnet RPC Query
 
