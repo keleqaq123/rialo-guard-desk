@@ -474,6 +474,6 @@ This project is currently intended for devnet testing and product demonstration 
 
 ---
 
-## One-Line Summary
+##  Summary
 
 **Rialo Guard Desk is a policy execution console for Rialo teams, designed to review, approve, encrypt, and audit operations before they are executed on-chain.**
