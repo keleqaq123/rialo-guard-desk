@@ -1,0 +1,27 @@
+[package]
+name = "rialo-guard-desk-backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+axum = { version = "0.7", features = ["macros"] }
+base64 = "0.22"
+dotenvy = "0.15"
+hex = "0.4"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["full"] }
+tower-http = { version = "0.5", features = ["cors", "trace"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "fmt"] }
+uuid = { version = "1", features = ["v4", "serde"] }
+chrono = { version = "0.4", features = ["clock", "serde"] }
+
+rialo-cdk = { version = "0.5.0-alpha.0", features = ["reqwest"] }
+rialo-types = "0.5.0-alpha.0"
+
+openssl = { version = "=0.10.79", features = ["vendored"] }
+
+[patch.crates-io]
+core2 = { version = "0.4.0", git = "https://github.com/bbqsrc/core2", rev = "545e84bcb0f235b12e21351e0c69767958efe2a7" }
