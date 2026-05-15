@@ -236,36 +236,6 @@ The default public key used in my demo is a Rialo Playground devnet wallet addre
 
 ---
 
-## Project Structure
-
-```txt
-rialo-guard-desk/
-├─ frontend/
-│  ├─ src/
-│  │  ├─ api/
-│  │  │  └─ rialo.js
-│  │  ├─ components/
-│  │  │  ├─ dashboard/
-│  │  │  ├─ forms/
-│  │  │  └─ shared/
-│  │  ├─ lib/
-│  │  ├─ App.jsx
-│  │  ├─ index.css
-│  │  └─ main.jsx
-│  ├─ package.json
-│  └─ vite.config.js
-│
-├─ backend/
-│  ├─ src/
-│  │  └─ main.rs
-│  ├─ Cargo.toml
-│  └─ .env.example
-│
-├─ README.md
-└─ .gitignore
-```
-
----
 
 ## Quick Start
 
